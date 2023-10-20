@@ -8,7 +8,7 @@ pipeline {
         stage("Checkout"){
             steps {
                 echo "Checkout"
-                git url:"https://github.com/Piyushjais25/SpringPetClinic.git", branch:"main"
+                git url:'https://github.com/Piyushjais25/SpringPetClinic.git', branch:'main'
             }
        stage('validate') {
             steps {
